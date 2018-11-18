@@ -1,0 +1,52 @@
+---
+AWSTemplateFormatVersion: "version date"
+#AWSTemplateFormatVersion: "2010-09-09"
+Description:
+  String
+# >
+#   Here are some
+#   details about
+#   the template.
+Metadata:
+  template metadata
+# Metadata:
+#   Instances:
+#     Description: "Information about the instances"
+#   Databases:
+#     Description: "Information about the databases"
+
+Parameters:
+  set of parameters
+# Parameters:
+#   InstanceTypeParameter:
+#     Type: String
+#     Default: t2.micro
+#     AllowedValues:
+#       - t2.micro
+#       - m1.small
+#       - m1.large
+#     Description: Enter t2.micro, m1.small, or m1.large. Default is t2.micro.
+# Ref a template:
+# Ec2Instance:
+#   Type: AWS::EC2::Instance
+#   Properties:
+#     InstanceType:
+#       Ref: InstanceTypeParameter
+#     ImageId: ami-0ff8a91507f77f867
+
+Mappings:
+  set of mappings
+
+Conditions:
+  set of conditions
+
+Transform:
+  set of transforms
+
+Resources:
+  set of resources
+
+Outputs:
+  set of outputs
+
+#Link: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html
