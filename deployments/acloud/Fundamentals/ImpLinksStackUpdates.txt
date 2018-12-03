@@ -1,0 +1,4 @@
+Update behaviors of Stack resources:
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html
+AWS Resource & Property types reference:
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
